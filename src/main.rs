@@ -8,16 +8,16 @@ fn main() {
     // Array of sprites for the animation
     let coffee_sprites = [
         r#"
-  ( (
-   ) )
+( (
+ ) )
 ........
 |      |]
 \      /
  `----'
   ~"#,
         r#"
-   ) )
-  ( (
+ ) )
+( (
 ........
 |      |]
 \      /
