@@ -4,5 +4,9 @@ version = "0.1.0"
 edition = "2024"
 
 [dependencies]
+ctrlc = "3.5.2"
 enigo = "0.6.1"
 terminal_size = "0.4.3"
+
+[target."cfg(windows)".dependencies]
+windows-sys = { version = "0.61.2", features = ["Win32_System_Power"] }
